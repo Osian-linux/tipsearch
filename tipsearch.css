@@ -1,0 +1,30 @@
+Screen {
+    overflow: auto;
+}
+
+#container {
+    layout: horizontal;
+    height: 7%;
+    margin: 2 3;
+}
+
+#result_container {
+    layout: vertical;
+    height: 85%;
+    margin: 2 3;
+}
+
+#ip_input {
+    width: 30%;
+}
+#ip_input:focus {
+    border: tall royalblue;
+}
+
+#search_button {
+    width: 10%;
+}
+
+#result {
+    margin: 0 1;
+}
